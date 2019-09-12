@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 500px) {
+
+    .container {
+        
+        background: #F6F6F6;
+    }
+
+    header {
+        background: #333 url("../img/Hero background.png") no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        position: relative;
+    }
+
+    header .intro {
+        padding: 249.5px 0 100px 92.5px;
+        margin: -100px 0 0 -50px;
+     }
+
+    header .intro h1 {
+        font-size: 40px;
+        font-weight: 400;
+        padding: auto 20px;
+        
+    }
+
+    header .intro p {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .about-us p{
+        height: 112px;	
+        width: 100%;	
+        color: #656C6D;	
+        font-weight: 400;	
+        font-size: 20px;	
+        line-height: 28px;	
+        text-align: center;
+        margin: 35px auto 125px;
+        color: var(--text-color);
+    }
+
+    
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form .form-1 #name-form,
+.form .form-1 #email-form{
+
+   align-items: center;
+    height: 50px;	
+    width: 300px;	
+    border: none;
+    
+    
+}
+
+   
+    .form .form-2 #text-form {
+        height: 150px;	
+        width: 300px;	
+        background-color: #FFFFFF;
+        border: none;
+        resize: none;
+    }
+
+   
+    .form #submit {
+        background: var(--primary-color);
+        color: #ffffff;
+        font-size: 16px; 
+        box-sizing: border-box;	
+        height: 47px;	
+        width: 181px;	
+        border: 2px solid #FFFFFF;  
+        margin: 24px auto 99px;
+        
+    }
+}
+

@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+ --primary-color: #FFAA00;
+ --text-color: #656C6D;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #F6F6F6;
+}
+
+header {
+    background: #333 url("../img/Hero background.png") no-repeat center center/cover;
+    width: 100%;
+    height: 718px;
+    color: #fff;
+    position: relative;
+}
+
+header .intro {
+   padding: 249.5px 0 0 92.5px;
+}
+
+header .intro h1 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+header .intro h1 .bold {
+    font-weight: 700;
+    padding: 4px;
+}
+
+header .intro p {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+
+
+.intro .btn {
+    display: inline-block;
+    text-align: center;
+    
+    height: 55px;	
+    width: 172px;	
+    text-decoration: none;
+    background-color: var(--primary-color) ;
+    color: #ffffff;  
+}
+
+
+/* About Us */
+
+.about-us #about-us,
+.projects #projects-title{
+    margin: 100px auto 10px;
+    height: 34px;	
+    width: 139px;	
+    color: #000000;		
+    font-size: 34px;	
+    line-height: 34px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.about-us #about-us::after,
+.projects #projects-title::after {
+    display: block;
+  height: 3px;
+  background-color: var(--primary-color);
+  content: "";
+  width: 70px;
+  margin: 10px auto;
+  
+  
+}
+
+.about-us img {
+    display: block;
+    margin: 50px auto 25px;
+    
+}
+
+.about-us p{
+    height: 112px;	
+    width: 626px;	
+    color: #656C6D;	
+    font-weight: 400;	
+    font-size: 20px;	
+    line-height: 28px;	
+    text-align: center;
+    margin: 25px auto;
+    color: var(--text-color);
+}
+
+.about-us p:last-child {
+    padding-bottom: 100px;
+}
+
+
+/* Projects */
+
+.projects {
+    padding-bottom: 100px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photos:first-child {
+    margin: 100px;
+    padding: 100px;
+}
+
+.photos .item {
+    height: 251px;	
+    width: 251px;
+    margin: 30px;
+}
+
+.contact {
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact #contact-title {
+    margin: 0 auto 10px;
+    padding-top: 100px;
+    height: 34px;	
+    width: 119px;	
+    color: #FFFFFF;		
+    font-size: 34px;	
+    line-height: 34px;
+}
+
+.contact #contact-title::after {
+    display: block;
+  height: 3px;
+  background-color:  #FFFFFF;;
+  content: "";
+  width: 70px;
+  margin: 10px auto;
+  
+}
+
+
+
+
+.form  .form-1,
+.form  .form-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form .form-1 #name-form,
+.form .form-1 #email-form{
+
+    margin: 25px 15px;
+    height: 50px;	
+    width: 355px;	
+    border: none;
+    padding: 0 0px;
+    
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+    padding-top: 10px; 
+  }
+
+.form .form-2 #text-form {
+    height: 150px;	
+    width: 740px;	
+    background-color: #FFFFFF;
+    border: none;
+    resize: none;
+}
+.form #submit {
+    background: var(--primary-color);
+    color: #ffffff;
+    font-size: 16px; 
+    box-sizing: border-box;	
+    height: 47px;	
+    width: 181px;	
+    border: 2px solid #FFFFFF;
+    float: right;
+    margin: 24px 269px 99px 830px;
+    
+}
+
+
+
+
+
+
+
